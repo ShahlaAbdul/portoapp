@@ -1,12 +1,12 @@
 import React from 'react'
 import './Home.scss'
-import ShopByCategory from '../../Component/HomePageShopByCategorySect/ShopByCategory'
+// import ShopByCategory from '../../Component/HomePageShopByCategorySect/ShopByCategory'
 
 function Home() {
   return (
     <div> 
-      <ShopByCategory /> 
-      
+      {/* <ShopByCategory />  */}
+      <h1>sadasd</h1>
     </div>
   )
 }

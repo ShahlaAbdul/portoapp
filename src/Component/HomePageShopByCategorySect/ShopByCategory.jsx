@@ -5,7 +5,8 @@ import ShopByCategoryFilter from '../ShopByCategoryFilter/ShopByCategoryFilter';
 function ShopByCategory() {
   return (
     <div>
-      <ShopByCategoryFilter></ShopByCategoryFilter>
+      {/* <ShopByCategoryFilter></ShopByCategoryFilter> */}
+      <ShopByCategoryFilter/>
     </div>
   );
 }

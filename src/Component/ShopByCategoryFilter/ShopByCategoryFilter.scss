@@ -1,0 +1,40 @@
+.shop_by_category{
+    width: 250px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ border: 1px solid rgb(158, 178, 210);
+    ul{
+        .shop_by_category_top{
+           padding: 10px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            padding: 5px 10px;
+            color: #fff;
+            background-color: #4949fc;
+        }
+      
+        li{
+            display: flex;  
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+            border-bottom: 1px solid rgb(158, 178, 210);
+            padding: 7px;
+            i{
+                padding-right: 20px;
+            }
+        }
+        
+    }
+    .huge_sale{
+        width: 80%;
+        margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.767);
+            padding:  10px 0px;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            margin: 20px 10px;
+        }
+}

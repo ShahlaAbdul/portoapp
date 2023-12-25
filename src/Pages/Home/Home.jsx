@@ -1,12 +1,15 @@
 import React from 'react'
 import './Home.scss'
-// import ShopByCategory from '../../Component/HomePageShopByCategorySect/ShopByCategory'
+import ShopByCategory from '../../Component/HomePageShopByCategorySect/ShopByCategory'
+import ProductSection from '../../Component/HomePageFeaturedProductSec/ProductSection'
+// import HomePageFlashSale from '../../Component/HomePageFlashSale/HomePageFlashSale'
 
 function Home() {
   return (
     <div> 
-      {/* <ShopByCategory />  */}
-      <h1>sadasd</h1>
+      <ShopByCategory /> 
+      {/* <HomePageFlashSale/> */}
+      <ProductSection/>
     </div>
   )
 }

@@ -8,7 +8,7 @@ import './Header.scss'
 function Header() {
     return (
       <div>
-        <header>
+        {/* <header>
           <div className="head">
             <div className="header_top">
               <div className="headLeft">
@@ -104,7 +104,7 @@ function Header() {
               <p>BUY PORTO</p>
             </div>
           </div>
-        </nav>
+        </nav> */}
       </div>
     );
 }
